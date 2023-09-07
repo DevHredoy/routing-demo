@@ -5,6 +5,10 @@ import React from "react";
 import { Navbar } from "./components/Navbar";
 import { OrderSummary } from "./components/OrderSummary";
 import { NoMatch } from "./components/NoMatch";
+import Products from "./components/Products";
+import NewProducts from "./components/NewProducts";
+import FeaturedProduct from "./components/FeaturedProduct";
+
 function App() {
   return (
     <>
@@ -14,6 +18,11 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="order-summary" element={<OrderSummary />} />
         <Route path="*" element={<NoMatch />} />
+        <Route path="products" element={<Products />}>
+          <Route index element={<FeaturedProduct />} />
+          <Route path="new" element={<NewProducts />} />
+          <Route path="featured" element={<FeaturedProduct />} />
+        </Route>
       </Routes>
     </>
   );

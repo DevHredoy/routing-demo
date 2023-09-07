@@ -1,0 +1,3 @@
+
+in this branch nested routing and indexing has been done .In nested routing there will be more nav other than the top nav of page in a particular
+page. the url will also effected. that means the parent route is properly arranged under a parent route in url.
