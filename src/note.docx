@@ -1,0 +1,20 @@
+
+in this branch nested routing and indexing has been done .In nested routing there will be more nav other than the top nav of page in a particular
+page. the url will also effected. that means the parent route is properly arranged under a parent route in url.
+
+useSearch params:this hook is used to use filter. In websites we can filter search results.
+this hook is used to modify the url.
+
+relative links: if we use relative link in the url the parent directory link doesn't appear
+rather only that route's path appears. for example in absolute links it is 
+
+              :localhost:3000/products/new
+              
+
+but in relative link it becomes:
+
+                :localhost:3000/new
+
+relative links are useful when there is a problem of nested routing has.
+
+          
