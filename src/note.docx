@@ -17,4 +17,8 @@ but in relative link it becomes:
 
 relative links are useful when there is a problem of nested routing has.
 
+
+
+lazyload: during intial rendering we can skip some rendering and that will take place later when we shall need.
+
           
